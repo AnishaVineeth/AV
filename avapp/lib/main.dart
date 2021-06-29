@@ -38,15 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 10),
             Center(child: Text('Anisha Vineeth',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),)),
-            // Container(
-            //   child: UserAccountsDrawerHeader(
-            //       currentAccountPicture: CircleAvatar(
-            //         backgroundColor : Color(0xff9AF4C1),
-            //         backgroundImage: AssetImage('images/FLOWER.jpeg'),
-            //       ),
-            //       accountName: Text('Anisha Vineeth'),
-            //       accountEmail: Text('anishaav02@gmail.com')),
-            // ),
+            
             ListTile(
               leading: Icon(Icons.person),
               title: Text(
