@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alisha/Downloads/Developmentt/MYProjects/avapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/alisha/Documents/GitProjects/AV/avapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/alisha/Downloads/Developmentt/MYProjects/avapp/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/alisha/Documents/GitProjects/AV/avapp/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

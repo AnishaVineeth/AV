@@ -1,3 +1,4 @@
+import 'package:avapp/gallery.dart';
 import 'package:avapp/profile.dart';
 import 'package:avapp/videos.dart';
 import 'package:flutter/material.dart';
@@ -58,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyProfile()));
+                    MaterialPageRoute(builder: (context) => Gallery()));
               },
             ),
             ListTile(
