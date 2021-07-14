@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Video()));
+                    MaterialPageRoute(builder: (context) => VideoApp()));
               },
             ),
           ],

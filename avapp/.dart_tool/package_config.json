@@ -147,7 +147,7 @@
     },
     {
       "name": "video_player",
-      "rootUri": "file:///Users/alisha/Downloads/Developmentt/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.6",
+      "rootUri": "file:///Users/alisha/Downloads/Developmentt/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.10",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-02T05:13:26.907823Z",
+  "generated": "2021-07-14T12:18:26.282169Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }

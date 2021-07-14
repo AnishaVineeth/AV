@@ -35,6 +35,7 @@ class _MyProfileState extends State<MyProfile> {
             buildMailCard(),
             buildSocialCard(),
             buildImageInteractionCard(),
+            buildChatCard()
           ],
         ),
       ]));
@@ -108,7 +109,7 @@ class _MyProfileState extends State<MyProfile> {
           child: Column(
             children: [
               Text(
-                '   Instagram, Facebook, LinkedIn  ',
+                '   Social Media Profile  ',
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -176,71 +177,31 @@ class _MyProfileState extends State<MyProfile> {
           ],
         ),
       );
+      Widget buildChatCard() => Card(
+        shadowColor: Colors.green,
+        elevation: 10,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        child: Container(
+          decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  colors: [Colors.greenAccent, Colors.green[200]],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter)),
+          padding: const EdgeInsets.all(12.0),
+          child: Column(
+            children: [
+              Text(
+                '   Lets talk!  ',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+              const SizedBox(
+                height: 12,
+              ),
+            ],
+          ),
+        ),
+      );
 }
-
-
-
-
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     body: Column(
-  //       children: [
-  //         SizedBox(
-  //           height: 100,
-  //         ),
-  //         Center(
-  //           child: new Container(
-  //             width: 190.0,
-  //             height: 190.0,
-  //             decoration: new BoxDecoration(
-  //                 shape: BoxShape.circle,
-  //                 image: new DecorationImage(
-  //                     fit: BoxFit.fill,
-  //                     image: new AssetImage('images/FLOWER.jpeg'))),
-  //           ),
-  //         ),
-  //         Container(
-  //           child: ListView(
-  //             padding: EdgeInsets.all(16),
-  //             children: [
-  //               buildNameCard();
-  //             ],
-  //           ),
-  //         )
-          
-  //         //   child: Card(
-  //         //     shadowColor: Colors.green,
-  //         //     elevation: 10,
-  //         //     shape:
-  //         //         RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-  //         //     child: Container(
-  //         //       decoration: BoxDecoration(
-  //         //           gradient: LinearGradient(
-  //         //               colors: [Colors.greenAccent, Colors.green[200]],
-  //         //               begin: Alignment.topCenter,
-  //         //               end: Alignment.bottomCenter)),
-  //         //       padding: const EdgeInsets.all(12.0),
-  //         //       child: Column(
-  //         //         children: [
-  //         //           Text(
-  //         //             '   Anisha Vineeth  ',
-  //         //             style: TextStyle(
-  //         //                 fontSize: 20,
-  //         //                 fontWeight: FontWeight.bold,
-  //         //                 color: Colors.white),
-  //         //           ),
-  //         //           const SizedBox(
-  //         //             height: 12,
-  //         //           ),
-                   
-  //         //         ],
-  //         //       ),
-  //         //     ),
-  //         //   ),
-  //         // ),
-  //         // 
-
-          
-
-  //       ],
-  //     ));}}
